@@ -1,6 +1,8 @@
 package com.elkoki.launchnewactivityandcarryparameters;
 
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
 
@@ -27,12 +29,11 @@ public class Browser extends AppCompatActivity {
         webvw1 = findViewById(R.id.webvw1);
 
         Bundle extras = getIntent().getExtras();
-        String dato = extras.getString("url");
-        webvw1.loadUrl("https://" + dato);
-
+        String website = extras.getString("url");
+        webvw1.loadUrl("https://" + website);
     }
+
     public void Back (View view) {
         finish();
-
     }
 }
