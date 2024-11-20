@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LaunchNew Activity and Carry Parameters</string>
+    <string name="txtvw1">Insert a Web Site</string>
+    <string name="edtxt1">yoursite.com</string>
+    <string name="btn_browse">Browse</string>
+    <string name="btn_back">Back</string>
+</resources>
